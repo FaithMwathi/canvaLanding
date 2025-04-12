@@ -1,0 +1,111 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3eaea;
+    color: #333;
+  }
+  header {
+
+background-color: #e3eaea;
+padding: 20px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+font-size: 24px;
+font-weight: bold;
+margin-left: 400px;
+}
+
+.navbar {
+display: flex;
+margin-top: 10px;
+margin-right: 80px;
+width: 100%;
+justify-content:space-around ;
+justify-items: center;
+
+}
+
+
+.navbar a{
+background-color: #7bc2d3;
+color: white;
+padding: 10px 110px;
+text-decoration: none;
+border-radius: 10px;
+font-weight: bold;
+
+
+
+
+}
+
+.auth {
+display: flex;
+gap: 10px;
+flex-direction: row;
+}
+.auth a{
+    background-color: #2e8bc0;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: #e3eaea;
+}
+
+.main {
+display: flex;
+flex-wrap: wrap;
+/* align-items: center; */
+justify-content: space-around; 
+padding: 40px;
+/* background-color: #e3eaea; */
+width: 100%;
+flex-direction: row;
+background-color: #2e8bc0;
+
+}
+
+.text-section {
+max-width:100%;
+margin: 40px -30px;
+background-color: firebrick;
+justify-items: center;
+}
+
+.text-section h1 {
+padding: 30px;    
+font-size: 48px;
+color: #6699cc;
+margin: 0;
+letter-spacing: 1px;
+}
+
+.text-section p {
+font-size: 20px;
+margin: 20px 0;
+padding-bottom: 20px;
+}
+
+.text-section a {
+    
+display: inline-block;
+background-color: #2e8bc0;
+color: white;
+/* padding: 10px 20px; */
+border-radius: 15px;
+font-weight: bold;
+text-decoration: none;
+margin-top: 50px;
+}
+
+.image-section img {
+max-width: 350px;
+border-radius: 10px;
+} 
